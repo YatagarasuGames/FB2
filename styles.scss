@@ -1,0 +1,26 @@
+$primary-color: #ff5100;
+$secondary-color: #380d00;
+$font-family: 'Arial', sans-serif;
+
+
+body {
+    font-family: $font-family;
+}
+
+h1 {
+    color: $primary-color;
+}
+
+.btn-custom {
+    background-color: $primary-color;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($primary-color, 30%);
+    }
+}
